@@ -1055,14 +1055,17 @@
 
           <div class="tabs-scroll">
 <button class="tab active" data-cat="all">All</button>
-<button class="tab" data-cat="COLD_DRINKS">Cold Drinks & Lassi</button>
-<button class="tab" data-cat="MILKSHAKES">Milkshakes</button>
-<button class="tab" data-cat="UPVAS_SPECIAL">Upvas Special</button>
-<button class="tab" data-cat="PARATHA_SAMARTH">Parathas</button>
+<button class="tab" data-cat="TEA_COFFEE">Hot / Tea</button>
+<button class="tab" data-cat="Misal">Misal</button>
+<button class="tab" data-cat="NASHTA">Nashta / Breakfast</button>
 <button class="tab" data-cat="SANDWICH">Sandwiches</button>
 <button class="tab" data-cat="EGG_SPECIAL">Egg Dishes</button>
 <button class="tab" data-cat="CHAT">Chat & Bhel</button>
-<button class="tab" data-cat="FRY_SPECIALS">Fry & Momos</button>
+<button class="tab" data-cat="UPVAS_SPECIAL">Upvas Special</button>
+<button class="tab" data-cat="PARATHA_SAMARTH">Parathas</button>
+<button class="tab" data-cat="COLD_DRINKS">Cold Drinks & Lassi</button>
+<button class="tab" data-cat="MILKSHAKES">Milkshakes</button>
+<button class="tab" data-cat="FRY_SPECIALS">Chat & Fry</button>
           </div>
         </div>
       </div>
@@ -1161,6 +1164,42 @@
     const data =
     
   [
+  
+  { "id": 83, "cat": "TEA_COFFEE", "name": "चहा (Tea)", "price": "Check Price", "desc": "Regular hot tea", "tags": ["Veg"], "img": "img/tea.jpg" },
+  { "id": 84, "cat": "TEA_COFFEE", "name": "स्पेशल चहा (Special Tea)", "price": "20 RS", "desc": "Special milk tea with cardamom", "tags": ["Veg"], "img": "img/special_tea.jpg" },
+  { "id": 85, "cat": "TEA_COFFEE", "name": "गुळाचा चहा (Jaggery Tea)", "price": "25 RS", "desc": "Healthy tea made with jaggery instead of sugar", "tags": ["Veg"], "img": "img/jaggery_tea.jpg" },
+  { "id": 86, "cat": "TEA_COFFEE", "name": "चॉकलेट चहा (Chocolate Tea)", "price": "25 RS", "desc": "Tea with a hint of chocolate flavor", "tags": ["Veg"], "img": "img/chocolate_tea.jpg" },
+  { "id": 87, "cat": "TEA_COFFEE", "name": "पहाडी चहा (Pahadi Tea)", "price": "30 RS", "desc": "Strong refreshing mountain style tea", "tags": ["Veg"], "img": "img/pahadi_tea.jpg" },
+  { "id": 88, "cat": "TEA_COFFEE", "name": "ब्लॅक चहा (Black Tea)", "price": "20 RS", "desc": "Tea without milk", "tags": ["Veg"], "img": "img/black_tea.jpg" },
+  { "id": 89, "cat": "TEA_COFFEE", "name": "लेमन चहा (Lemon Tea)", "price": "20 RS", "desc": "Black tea with fresh lemon juice", "tags": ["Veg"], "img": "img/lemon_tea.jpg" },
+  { "id": 90, "cat": "TEA_COFFEE", "name": "नेस कॉफी (Nescoffee)", "price": "20 RS", "desc": "Instant Nescafe coffee", "tags": ["Veg"], "img": "img/nescoffee.jpg" },
+  { "id": 91, "cat": "TEA_COFFEE", "name": "ब्लॅक कॉफी (Black Coffee)", "price": "20 RS", "desc": "Strong coffee without milk", "tags": ["Veg"], "img": "img/black_coffee.jpg" },
+  { "id": 92, "cat": "TEA_COFFEE", "name": "ग्रीन चहा (Green Tea)", "price": "30 RS", "desc": "Healthy herbal green tea", "tags": ["Veg"], "img": "img/green_tea.jpg" },
+  { "id": 93, "cat": "TEA_COFFEE", "name": "बॉर्नविटा (Bournvita)", "price": "40 RS", "desc": "Hot milk with Bournvita", "tags": ["Veg"], "img": "img/bournvita.jpg" },
+  { "id": 94, "cat": "TEA_COFFEE", "name": "दूध (Milk)", "price": "30 RS", "desc": "Hot plain milk", "tags": ["Veg"], "img": "img/milk.jpg" },
+  { "id": 95, "cat": "TEA_COFFEE", "name": "मसाला दूध (Masala Milk)", "price": "40 RS", "desc": "Milk boiled with dry fruits and spices", "tags": ["Veg"], "img": "img/masala_milk.jpg" },
+ 
+      
+  { "id": 65, "cat": "Misal", "name": "मिसळ / Misal", "price": "80 RS", "desc": "Spicy sprouted lentil curry topped with farsan", "tags": ["Veg"], "img": "img/misal.jpg" },
+  { "id": 66, "cat": "Misal", "name": "काजू मिसळ / Kaju Misal", "price": "90 RS", "desc": "Misal garnished with rich cashew nuts", "tags": ["Veg"], "img": "img/kaju_misal.jpg" },
+  { "id": 67, "cat": "Misal", "name": "चीज मिसळ / Cheese Misal", "price": "90 RS", "desc": "Spicy misal topped with grated cheese", "tags": ["Veg"], "img": "img/cheese_misal.jpg" },
+  { "id": 68, "cat": "Misal", "name": "बटर मिसळ / Butter Misal", "price": "90 RS", "desc": "Misal served with a dollop of butter", "tags": ["Veg"], "img": "img/butter_misal.jpg" },
+  { "id": 69, "cat": "Misal", "name": "फूड मॉल स्पेशल मिसळ / Food Mall Spe. Misal", "price": "120 RS", "desc": "Special house style loaded misal", "tags": ["Veg"], "img": "img/special_misal.jpg" },
+  
+  { "id": 70, "cat": "NASHTA", "name": "पोहे / Pohe", "price": "50 RS", "desc": "Flattened rice breakfast dish with peanuts", "tags": ["Veg"], "img": "img/pohe.jpg" },
+  { "id": 71, "cat": "NASHTA", "name": "शिरा / Shira", "price": "50 RS", "desc": "Sweet semolina pudding", "tags": ["Veg"], "img": "img/shira.jpg" },
+  { "id": 72, "cat": "NASHTA", "name": "वडापाव / Vadapav", "price": "20 RS", "desc": "Classic potato fritter in a bun", "tags": ["Veg"], "img": "img/vadapav.jpg" },
+  { "id": 73, "cat": "NASHTA", "name": "चीज वडापाव / Cheese Vadapav", "price": "30 RS", "desc": "Vada pav loaded with cheese", "tags": ["Veg"], "img": "img/cheese_vadapav.jpg" },
+  { "id": 74, "cat": "NASHTA", "name": "वडासांबर सिंगल / Vadasambhar Single", "price": "50 RS", "desc": "Single vada served with hot sambar", "tags": ["Veg"], "img": "img/vadasambhar_single.jpg" },
+  { "id": 75, "cat": "NASHTA", "name": "वडासांबर डबल / Vadasambhar Double", "price": "70 RS", "desc": "Two vadas served with hot sambar", "tags": ["Veg"], "img": "img/vadasambhar_double.jpg" },
+  { "id": 76, "cat": "NASHTA", "name": "पावभाजी / Pavbhaji", "price": "80 RS", "desc": "Mashed vegetable curry served with buttered bread", "tags": ["Veg"], "img": "img/pavbhaji.jpg" },
+  { "id": 77, "cat": "NASHTA", "name": "अमूल पावभाजी / Amul Pavbhaji", "price": "90 RS", "desc": "Pav bhaji prepared with rich Amul butter", "tags": ["Veg"], "img": "img/amul_pavbhaji.jpg" },
+  { "id": 78, "cat": "NASHTA", "name": "चीज पावभाजी / Cheese Pavbhaji", "price": "100 RS", "desc": "Pav bhaji topped with plenty of cheese", "tags": ["Veg"], "img": "img/cheese_pavbhaji.jpg" },
+  { "id": 79, "cat": "NASHTA", "name": "मॅगी / Maggie", "price": "40 RS", "desc": "Classic instant noodles", "tags": ["Veg"], "img": "img/maggie.jpg" },
+  { "id": 80, "cat": "NASHTA", "name": "मसाला मॅगी / Masala Maggie", "price": "60 RS", "desc": "Spicy vegetable instant noodles", "tags": ["Veg"], "img": "img/masala_maggie.jpg" },
+  { "id": 81, "cat": "NASHTA", "name": "चीज मॅगी / Cheese Maggie", "price": "70 RS", "desc": "Instant noodles topped with cheese", "tags": ["Veg"], "img": "img/cheese_maggie.jpg" },
+  { "id": 82, "cat": "NASHTA", "name": "कांदा भजी / Kanda Bhaji", "price": "70 RS", "desc": "Crispy onion fritters", "tags": ["Veg"], "img": "img/kanda_bhaji.jpg" },
+
   { "id": 1, "cat": "COLD_DRINKS", "name": "लस्सी / Lassi", "price": "25 RS", "desc": "Traditional plain sweet yogurt drink", "tags": ["Veg"], "img": "img/lassi.jpg" },
   { "id": 2, "cat": "COLD_DRINKS", "name": "पंजाबी लस्सी / Punjabi Lassi", "price": "50 RS", "desc": "Thick and creamy Punjabi style lassi", "tags": ["Veg"], "img": "img/punjabi_lassi.jpg" },
   { "id": 3, "cat": "COLD_DRINKS", "name": "स्ट्रॉबेरी लस्सी / Strawberry Lassi", "price": "50 RS", "desc": "Lassi blended with strawberry flavor", "tags": ["Veg"], "img": "img/strawberry_lassi.jpg" },
@@ -1226,28 +1265,8 @@
   { "id": 63, "cat": "FRY_SPECIALS", "name": "ऑनियन टिक्की / Onion Tikki", "price": "60 RS", "desc": "Spiced fried cutlets/patties", "tags": ["Veg"], "img": "img/onion_tikki.jpg" },
 
   
-  
-  { "id": 65, "cat": "NASHTA", "name": "मिसळ / Misal", "price": "80 RS", "desc": "Spicy sprouted lentil curry topped with farsan", "tags": ["Veg"], "img": "img/misal.jpg" },
-  { "id": 66, "cat": "NASHTA", "name": "काजू मिसळ / Kaju Misal", "price": "90 RS", "desc": "Misal garnished with rich cashew nuts", "tags": ["Veg"], "img": "img/kaju_misal.jpg" },
-  { "id": 67, "cat": "NASHTA", "name": "चीज मिसळ / Cheese Misal", "price": "90 RS", "desc": "Spicy misal topped with grated cheese", "tags": ["Veg"], "img": "img/cheese_misal.jpg" },
-  { "id": 68, "cat": "NASHTA", "name": "बटर मिसळ / Butter Misal", "price": "90 RS", "desc": "Misal served with a dollop of butter", "tags": ["Veg"], "img": "img/butter_misal.jpg" },
-  { "id": 69, "cat": "NASHTA", "name": "फूड मॉल स्पेशल मिसळ / Food Mall Spe. Misal", "price": "120 RS", "desc": "Special house style loaded misal", "tags": ["Veg"], "img": "img/special_misal.jpg" },
-  { "id": 70, "cat": "NASHTA", "name": "पोहे / Pohe", "price": "50 RS", "desc": "Flattened rice breakfast dish with peanuts", "tags": ["Veg"], "img": "img/pohe.jpg" },
-  { "id": 71, "cat": "NASHTA", "name": "शिरा / Shira", "price": "50 RS", "desc": "Sweet semolina pudding", "tags": ["Veg"], "img": "img/shira.jpg" },
-  { "id": 72, "cat": "NASHTA", "name": "वडापाव / Vadapav", "price": "20 RS", "desc": "Classic potato fritter in a bun", "tags": ["Veg"], "img": "img/vadapav.jpg" },
-  { "id": 73, "cat": "NASHTA", "name": "चीज वडापाव / Cheese Vadapav", "price": "30 RS", "desc": "Vada pav loaded with cheese", "tags": ["Veg"], "img": "img/cheese_vadapav.jpg" },
-  { "id": 74, "cat": "NASHTA", "name": "वडासांबर सिंगल / Vadasambhar Single", "price": "50 RS", "desc": "Single vada served with hot sambar", "tags": ["Veg"], "img": "img/vadasambhar_single.jpg" },
-  { "id": 75, "cat": "NASHTA", "name": "वडासांबर डबल / Vadasambhar Double", "price": "70 RS", "desc": "Two vadas served with hot sambar", "tags": ["Veg"], "img": "img/vadasambhar_double.jpg" },
-  { "id": 76, "cat": "NASHTA", "name": "पावभाजी / Pavbhaji", "price": "80 RS", "desc": "Mashed vegetable curry served with buttered bread", "tags": ["Veg"], "img": "img/pavbhaji.jpg" },
-  { "id": 77, "cat": "NASHTA", "name": "अमूल पावभाजी / Amul Pavbhaji", "price": "90 RS", "desc": "Pav bhaji prepared with rich Amul butter", "tags": ["Veg"], "img": "img/amul_pavbhaji.jpg" },
-  { "id": 78, "cat": "NASHTA", "name": "चीज पावभाजी / Cheese Pavbhaji", "price": "100 RS", "desc": "Pav bhaji topped with plenty of cheese", "tags": ["Veg"], "img": "img/cheese_pavbhaji.jpg" },
-  { "id": 79, "cat": "NASHTA", "name": "मॅगी / Maggie", "price": "40 RS", "desc": "Classic instant noodles", "tags": ["Veg"], "img": "img/maggie.jpg" },
-  { "id": 80, "cat": "NASHTA", "name": "मसाला मॅगी / Masala Maggie", "price": "60 RS", "desc": "Spicy vegetable instant noodles", "tags": ["Veg"], "img": "img/masala_maggie.jpg" },
-  { "id": 81, "cat": "NASHTA", "name": "चीज मॅगी / Cheese Maggie", "price": "70 RS", "desc": "Instant noodles topped with cheese", "tags": ["Veg"], "img": "img/cheese_maggie.jpg" },
-  { "id": 82, "cat": "NASHTA", "name": "कांदा भजी / Kanda Bhaji", "price": "70 RS", "desc": "Crispy onion fritters", "tags": ["Veg"], "img": "img/kanda_bhaji.jpg" },
 
-  
-  ];
+ ];
     // Cart functionality
     let cart = [];
     const cartButton = document.getElementById('cartButton');
